@@ -1,0 +1,15 @@
+html{
+background-color: whitesmoke;
+}
+
+
+header {
+    width: 97%;
+    background-color: lightslategrey;
+    border: 1px solid;
+    padding: 10px;
+    
+}
+img {
+   height: 400px;
+}
