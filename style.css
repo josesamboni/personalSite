@@ -1,16 +1,126 @@
 html{
-background-color: azure;
+    background-color: rgb(244, 240, 235);
 }
 
+/*Nav Bar For Index, About, Portfolio*/
 
-header {
+nav {
     width: 97%;
     background-color: lightslategrey;
     border: 1px solid;
     padding: 10px;
-    
+    display: flex;  
+    justify-content: space-between;
+
 }
+nav a{
+    color: black;
+}
+
+/*        Home
+Description Of Website*/
+
+.HomeTitle{
+    text-align: center;
+}
+
+.HomeText{
+    text-align: center;
+}
+
+/*Photo For Home Page*/
+
 img {
    height: 400px;
+   display: flex;
+   margin: auto;
 }
  
+/*       About
+Description Of Website*/
+ 
+.About{
+    display: flex;
+
+}
+
+.AboutCoding{
+    padding: 20px;
+}
+
+.AboutGym{
+    padding: 20px;
+}
+
+.AboutDogs{
+    padding: 20px;
+}
+
+/*      Portfolio
+Description Of Website*/
+
+.Portfolio{
+    display: flex;
+    margin: 20px;
+    
+    
+}
+
+.Grocery img{
+    height: 300px;
+}
+
+.Grocery{
+    padding: 20px;
+}
+
+.DogTraining{
+    padding: 20px;
+}
+
+.DogTraining img{
+    height: 250px;
+    padding-top: 15px;
+}
+
+.Gym{
+    padding: 20px;
+
+}
+.Gym img{
+    height: 250px;
+    padding-top: 50px;
+}
+
+/*      Contact
+Description Of Website*/
+
+.ContactTitle{
+    text-align: center;
+    margin-top: 85px;
+    
+}
+ 
+.Form{
+    
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 20px;
+}
+   
+.ContactNav{
+    width: 97%;
+    background-color: lightslategrey;
+    border: 1px solid;
+    margin: 10px;
+    display: flex;  
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
